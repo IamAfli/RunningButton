@@ -16,16 +16,15 @@ public class MyMouseListener implements MouseListener {
         this.button = button;
     }
 
-
-    /**
-     * changes wasClicked flag, so that a button can increase it's speed
-     * changes button color, depending on the area clicked
-     */
     @Override
     public void mouseClicked(MouseEvent e) {
 
     }
 
+    /**
+     * changes wasClicked flag, so that a button can increase it's speed
+     * changes button color, depending on the area clicked
+     */
     @Override
     public void mousePressed(MouseEvent e) {
         //setting wasClicked flag true
