@@ -23,6 +23,11 @@ public class MyMouseListener implements MouseListener {
      */
     @Override
     public void mouseClicked(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
         //setting wasClicked flag true
         button.wasClicked = true;
 
@@ -54,11 +59,6 @@ public class MyMouseListener implements MouseListener {
                 button.setForeground(Color.GREEN);
             }
         }
-    }
-
-    @Override
-    public void mousePressed(MouseEvent e) {
-
     }
 
     @Override
